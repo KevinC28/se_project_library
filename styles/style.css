@@ -11,8 +11,8 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  min-height: 150px;
-  max-height: 32px;
+  min-height: 720px;
+  max-height: 800px;
   padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
@@ -59,11 +59,10 @@ max-width: 532px;
 }
 
 .header__image {
-  z-index: 1;
   position: absolute;
-  max-width: 636px;
   top: 135px;
   right: 20px;
+  max-width: 636px;
 }
 
 .header__footer {
@@ -84,13 +83,15 @@ max-width: 532px;
   margin: 0;
   color: #838383;
 }
+
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
   align-items: start;
   justify-content: space-between;
   box-sizing: border-box;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
+
 }
 
 .events__content {
@@ -164,55 +165,61 @@ max-width: 532px;
 }
 
 .events__image {
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
 .person {
-  /* position: absolute;
+  position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 10px; */
+  gap: 10px;
 }
 
 .person_name_feynman {
-  /* Use correct values of top/right/bottom/left properties to position the element */
+ top: -30px;
+ left: 319px;
 }
 
 .person_name_burbidge {
-  /* Use correct values of top/right/bottom/left properties to position the element */
+  top: 96px;
+  right: 125px;
 }
 
 .person_name_cannon {
-  /* Use correct values of top/right/bottom/left properties to position the element */
+  right: 216px;
+  bottom: 18px;
 }
 
 .person_name_mitchell {
-  /* Use correct values of top/right/bottom/left properties to position the element */
+  left: 142px;
+  bottom: 82px;
 }
 
 .person_name_tarter {
-  /* Use correct values of top/right/bottom/left properties to position the element */
+  left: 159px;
+  top: 79px;
+
 }
 
 .person__image {
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
 .person__image_size_l {
-  /* width: 140px; */
+  width: 140px;
 }
 
 .person__image_size_m {
-  /* width: 100px; */
+  width: 100px;
 }
 
 .person__image_size_s {
-  /* width: 80px; */
+  width: 80px;
 }
 
 .person__caption {
-  /* text-align: center;
+  text-align: center;
   font-size: 14px;
-  margin: 0; */
+  margin: 0;
 }
