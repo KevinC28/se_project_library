@@ -250,21 +250,21 @@
 .card__content_container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space;
-  align-items: center;
-  align-content: center;
-  max-width: 760px;
-}
-
-.card__content_item-1 {
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1em;
+  list-style-type: none;
   top: 68px;
-  right: 40px;
+  /* max-width: 760px; */
 }
 
-.card__content_item-2 {
+.card__content_container-1 {
 }
 
-.card__content_item-3 {
+.card__content_container-2 {
+}
+
+.card__content_container-3 {
 }
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
@@ -272,7 +272,7 @@
 .card {
   background-color: #fff;
   border-radius: 6px;
-  padding: 32px 40px 20px 32px;
+  padding: 0px 40px 20px 32px;
   box-sizing: border-box;
   height: 420px;
   width: 360px;
@@ -299,7 +299,7 @@
 }
 
 .card__footer {
-  margin: 0;
+  margin-top: auto;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
@@ -323,11 +323,13 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
+  display: flex;
+  justify-content: center;
 }
 
 .step {
-  /* Add styles */
+  flex-basis: 220px;
+  padding-right: 40px;
 }
 
 .step__title {
@@ -362,16 +364,28 @@
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
+  max-width: 154px;
 }
 
 .about__content {
+  display: flex;
+  flex-direction: column;
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
 }
 
+.about__paragraph {
+  /* display: flex; */
+  margin: ;
+}
+
 .about__circle {
+  margin-left: -91px;
+  margin-top: -121px;
+  display: flex;
+  justify-content: flex-start;
   background-color: #2f80ed;
   width: 495px;
   height: 495px;
