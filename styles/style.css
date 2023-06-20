@@ -221,6 +221,7 @@
 
 .staff {
   padding: 100px 0 140px;
+  background-image: url(staff_picks_background.jpg);
 }
 
 .staff__title {
