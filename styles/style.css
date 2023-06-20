@@ -250,21 +250,25 @@
 .card__content_container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-end;
   gap: 1em;
   list-style-type: none;
-  top: 68px;
-  /* max-width: 760px; */
+  max-width: 760px;
 }
 
 .card__content_container-1 {
+  padding: 68px 40px 40px 0px;
 }
 
 .card__content_container-2 {
+  padding: 68px 0px 40px 40px;
 }
 
 .card__content_container-3 {
+  padding: 40px 40px 0 0px;
+}
+
+.card__content_container-4 {
+  padding: 40px 0 0 40px;
 }
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
@@ -377,15 +381,11 @@
 }
 
 .about__paragraph {
-  /* display: flex; */
-  margin: ;
 }
 
 .about__circle {
   margin-left: -91px;
   margin-top: -121px;
-  display: flex;
-  justify-content: flex-start;
   background-color: #2f80ed;
   width: 495px;
   height: 495px;
