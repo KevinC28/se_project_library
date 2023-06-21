@@ -22,19 +22,21 @@
           <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
           <ul class="nav__links">
             <li>
-              <nav class="nav__link" href="#">Staff picks</nav>
+              <a class="nav__link" href="#staff-picks-info">Staff picks</a>
             </li>
             <li>
-              <nav class="nav__link" href="#">Events</nav>
+              <a class="nav__link" href="#events-info">Events</a>
             </li>
             <li>
-              <nav class="nav__link" href="#">Become a member</nav>
+              <a class="nav__link" href="#become-a-member-info">
+                Become a member
+              </a>
             </li>
             <li>
-              <nav class="nav__link" href="#">About</nav>
+              <a class="nav__link" href="#about-info">About</a>
             </li>
             <li>
-              <nav class="nav__link" href="#">Contacts</nav>
+              <a class="nav__link" href="#contacts-info">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -50,7 +52,7 @@
           class="header__image"
         />
         <div class="header__footer">
-          <a class="header__link">About the library &darr;</a>
+          <a class="header__link" href="#">About the library &darr;</a>
           <p class="header__address">
             200 Success Avenue, The Town of Practicum
           </p>
@@ -60,7 +62,7 @@
       <main class="content">
         <section class="events">
           <div class="events__content">
-            <h2 class="events__heading">Upcoming events:</h2>
+            <h2 id="events-info" class="events__heading">Upcoming events:</h2>
             <h3 class="events__title">
               In honor of Joan Feynman: Women in astrophysics
             </h3>
@@ -139,7 +141,7 @@
         </section>
 
         <section class="staff">
-          <h2 class="staff__title">Staff picks</h2>
+          <h2 id="staff-picks-info" class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
           <link rel="stylesheet" href="styles/style.css" />
           <ul class="staff__cards">
@@ -214,7 +216,9 @@
         </section>
 
         <section class="membership">
-          <h2 class="membership__title">Becoming a library member is easy!</h2>
+          <h2 id="become-a-member-info" class="membership__title">
+            Becoming a library member is easy!
+          </h2>
           <ul class="membership__steps">
             <li class="step">
               <h3 class="step__title">
@@ -270,7 +274,7 @@
         </section>
 
         <section class="about">
-          <h2 class="about__title">About the library</h2>
+          <h2 id="about-info" class="about__title">About the library</h2>
           <div class="about__content">
             <p class="about__paragraph">
               Libraries are essential establishments in practically every city,
@@ -303,7 +307,7 @@
             />
           </div>
           <div class="footer__column footer__column_content_hours">
-            <h2 class="footer__column-heading">Hours</h2>
+            <h2 id="contacts-info" class="footer__column-heading">Hours</h2>
             <ul class="footer__list">
               <li class="footer__list-item">Weekdays 9pm - 8pm</li>
               <li class="footer__list-item">Weekends 10am - 6pm</li>
