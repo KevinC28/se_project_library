@@ -48,7 +48,7 @@
 }
 
 .nav__link:hover {
-  color: #c1c1c1;#c1c1c1
+  color: #1f69c9;
 }
 
 .header__title {
@@ -85,6 +85,9 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+}
+.header__link:hover {
+  color: #c1c1c1;
 }
 
 .header__address {
@@ -160,6 +163,10 @@
 .events__more {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.events__more:hover {
+  color: #c1c1c1;
 }
 
 .events__cover {
