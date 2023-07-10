@@ -40,7 +40,7 @@
   color: #000000;
   text-decoration: none;
   font-weight: bold;
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .nav__link:hover {
@@ -52,12 +52,14 @@
   line-height: 76px;
   font-weight: 500;
   max-width: 544px;
+  padding-top: 128px;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
   max-width: 532px;
+  padding-top: 32px;
 }
 
 .header__image {
@@ -232,7 +234,7 @@
 
 .staff {
   padding: 100px 0 140px;
-  background-image: url("/images/staff_picks_background.jpg");
+  background-image: url("../images/staff_picks_background.jpg");
 }
 
 .staff__title {
